@@ -1,0 +1,86 @@
+.shopping-chart{
+    height: calc(100vH - 70px);
+    background-color: var(--gray-5);
+    display: grid;
+    grid-template-columns: minmax(300px, 600px) auto;
+    gap: var(--size-5);
+    padding: var(--size-4);
+    &__label {
+        padding: var(--size-1) var(--size-4);
+        width: fit-content;
+        border-radius: var(--radius-2) var(--radius-4) 0 0;
+        background-color: var(--violet-11);
+        color: #fff;
+        text-transform: capitalize;
+    }
+    &__input {
+        width: 100%;
+        font-size: inherit;
+        font-family: inherit;
+        color: var(--violet-11);
+        // border: 2px solid var(--violet-10);
+        padding: var(--size-2) var(--size-3);
+        background-color: #fff;
+        border-radius: 0;
+        transition: all 0.3s;
+        &:focus{
+            border-left: 10px solid var(--violet-11);
+            border-radius: 0 var(--size-3) var(--size-3) var(--size-3);
+            outline: none;
+        }
+        &::placeholder {
+            color: var(--gray-9);
+        }
+        &-wrapper {
+            display: grid;
+            // gap: var(--size-1);
+            align-content: start;
+        }
+    }
+    &__empty {
+        margin: var(--size-3) auto;
+        color: var(--violet-11);
+        font-size: 1.25rem;
+    }
+    &__userinfo {
+        display: grid;
+        gap: var(--size-3);
+        height: 100%;
+        align-content: start;
+    }
+    &__footer {
+        grid-column: 1 / 3;
+        align-self: end;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        gap: var(--size-3);
+        align-items: end;
+    }
+    &__total-price {
+        font-size: 1.25rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--violet-10);
+        width: 250px;
+    }
+    &__submit {
+        height: fit-content;
+        width: fit-content;
+        border: 2px solid var(--violet-10);
+        text-transform: capitalize;
+        font-size: inherit;
+        font-family: inherit;
+        color: var(--violet-10);
+        padding: var(--size-2) var(--size-3);
+        letter-spacing: var(--font-letterspacing-3);
+        transition: color 0.2s, background-color 0.2s, border-radius 0.3s; 
+        &:not([disabled]):hover {
+            border-radius: var(--radius-3);
+        }
+        &:not([disabled]):active {
+            color: #fff;
+            background-color: var(--violet-10);
+        }
+    }
+}

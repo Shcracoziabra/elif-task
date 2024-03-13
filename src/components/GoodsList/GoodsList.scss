@@ -1,0 +1,13 @@
+.goods-list {
+    padding: var(--size-3);
+    overflow: auto;
+    min-width: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--size-3);
+    align-items: start;
+    justify-content: center;
+    & li {
+        list-style: none;
+    }
+}

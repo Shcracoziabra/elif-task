@@ -1,0 +1,31 @@
+.shops-list {
+    overflow: auto;
+    width: 300px;
+    display: grid;
+    gap: var(--size-3);
+    align-content: start;
+    padding: var(--size-3);
+    justify-content: stretch;
+    & li {
+        list-style: none;
+        width: 100%;
+    }
+    &__item {
+        display: block;
+        width: 100%;
+        text-transform: capitalize;
+        font-size: inherit;
+        font-family: inherit;
+        color: var(--violet-10);
+        padding: var(--size-2) var(--size-3);
+        letter-spacing: var(--font-letterspacing-3);
+        transition: all 0.3s; 
+        &:hover {
+            border-radius: var(--radius-3);
+        }
+        &_chosen {
+            color: #fff;
+            background-color: var(--violet-10);
+        }
+    }
+}

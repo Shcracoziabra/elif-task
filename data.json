@@ -1,0 +1,127 @@
+{
+    "stores" : [
+        {
+            "id": 1,
+            "name": "store 1",
+            "goods": [
+                {"id" : 1},
+                {"id" : 2},
+                {"id" : 4},
+                {"id" : 7},
+                {"id" : 8}
+            ]
+        },
+        {
+            "id": 2,
+            "name": "store 2",
+            "goods": [
+                {"id" : 1},
+                {"id" : 2},
+                {"id" : 3},
+                {"id" : 4},
+                {"id" : 8}
+            ]
+        },
+        {
+            "id": 3,
+            "name": "store 3",
+            "goods": [
+                {"id" : 1},
+                {"id" : 2},
+                {"id" : 3},
+                {"id" : 4},
+                {"id" : 5},
+                {"id" : 6},
+                {"id" : 7},
+                {"id" : 8},
+                {"id" : 9}
+            ]
+        }
+    ],
+    "goods": [
+        {
+            "id": 1,
+            "name": "drug 1",
+            "descr": "drug 1 description",
+            "count": 10,
+            "price": 120,
+            "created": 111111111
+        },
+        {
+            "id": 2,
+            "name": "drug 2",
+            "descr": "drug 2 description",
+            "count": 10,
+            "price": 135,
+            "created": 121111111
+        },
+        {
+            "id": 3,
+            "name": "drug 3",
+            "descr": "drug 3 description",
+            "count": 10,
+            "price": 10,
+            "created": 141111111
+        },
+        {
+            "id": 4,
+            "name": "drug 4",
+            "descr": "drug 4 description",
+            "count": 10,
+            "price": 129,
+            "created": 131111111
+        },
+        {
+            "id": 5,
+            "name": "drug 5",
+            "descr": "drug 5 description",
+            "count": 10,
+            "price": 70,
+            "created": 151111111
+        },
+        {
+            "id": 6,
+            "name": "drug 6",
+            "descr": "drug 6 description",
+            "count": 10,
+            "price": 180,
+            "created": 161111111
+        },
+        {
+            "id": 7,
+            "name": "drug 7",
+            "descr": "drug 7 description",
+            "count": 10,
+            "price": 20,
+            "created": 171111111
+        },
+        {
+            "id": 8,
+            "name": "drug 8",
+            "descr": "drug 8 description",
+            "count": 10,
+            "price": 820,
+            "created": 181111111
+        },
+        {
+            "id": 9,
+            "name": "drug 9",
+            "descr": "drug 9 description",
+            "count": 10,
+            "price": 12,
+            "created": 181111111
+        }
+
+    ],
+    "users": [
+        {
+            "id": 1,
+            "email": "bbb@gmail.com",
+            "name": "John Doe",
+            "phone":"",
+            "address": "",
+            "favourites": []
+        }
+    ],
+    "orders": []
+}
